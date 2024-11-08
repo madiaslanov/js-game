@@ -1,0 +1,63 @@
+body{
+  background-color: #5cbdb9;
+  margin: 0;
+}
+
+.img-game{
+  width: 100px;
+  height: 100px;
+  
+}
+
+div{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.click{
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  font-family: "Open Sans", serif;
+  color: #c80e13;
+}
+.my-pick,
+.comp-pick{
+  width: 150px;
+  height: 150px;
+}
+img.my-pick, img.comp-pick {
+  display: block;
+}
+
+img.hidden {
+  display: none; 
+}
+
+.our-pick{
+  display: flex;
+}
+
+p{
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #161748;
+}
+
+@media (max-width: 499px) {
+  .display{
+    display: block;
+  }
+  p{
+    font-size: 15px;
+  }
+  div{
+    gap: 20px;
+  }
+}

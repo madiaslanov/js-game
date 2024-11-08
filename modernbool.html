@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="modernbool.css">
+  <title>Rock Paper Scissors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Rock, Paper, Scissor</h1>
+<div>
+  <button onclick="Rock()"> <img src="img/rock.png" class="img-game" alt=""></button>
+  <button onclick="Paper()"><img src="img/paper.png" class="img-game" alt=""></button>
+  <button onclick="Scissors()"><img src="img/sc.png" class="img-game" alt=""></button>
+  
+</div>
+<div>
+<button onclick="Remove()">Remove Scores</button>
+</div>
+
+
+<div>
+  <p id="gameResult"></p> 
+  <p id="scoreDisplay">Your scores: You win: 0, You lose: 0, You ties: 0</p> 
+</div>
+
+<div class="display">
+<div class="our-pick">
+  <p>You</p>
+  <img class="my-pick hidden" src="" alt="Your pick">
+</div>
+<div class="our-pick">
+  <img class="comp-pick hidden" src="" alt="Computer pick">
+  <p>Computer</p>
+</div>
+</div>
+
+
+<script src="modernbool.js"></script>
+</body>
+</html>
